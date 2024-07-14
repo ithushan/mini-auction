@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Smartphone XZ1",
+        "description": "A powerful smartphone with cutting-edge features and performance Sony Xperia XZ1 Android smartphone. Announced Aug 2017. Features 5.2″ display, Snapdragon 835 chipset, 19 MP primary camera, 13 MP front camera",
+        "ownerEmail": "info@example.com",
+        "image": "https://fdn.gsmarena.com/imgroot/reviews/17/sony-xperia-xz1/lifestyle/-728w2/gsmarena_010.jpg",
+        "image2": "https://fdn.gsmarena.com/imgroot/reviews/17/sony-xperia-xz1/lifestyle/-728w2/gsmarena_012.jpg",
+        "image3": "https://fdn.gsmarena.com/imgroot//reviews/17/sony-xperia-xz1/gal/-1200x900w1/gsmarena_001.jpg",
+        "auctionTime": 3,
+        "startPrice": 2500.00,
+        "lastBidAmount": 3000.00
+    },
+    {
+        "id": 2,
+        "name": "Laptop Pro X",
+        "description": "A powerful smartphone with cutting-edge features and performance Sony Xperia XZ1 Android smartphone. Announced Aug 2017. Features 5.2″ display, Snapdragon 835 chipset, 19 MP primary camera, 13 MP front camera",
+        "ownerEmail": "info@example.com",
+        "image": "https://fdn.gsmarena.com/imgroot/reviews/17/sony-xperia-xz1/lifestyle/-728w2/gsmarena_010.jpg",
+        "image2": "https://fdn.gsmarena.com/imgroot/reviews/17/sony-xperia-xz1/lifestyle/-728w2/gsmarena_012.jpg",
+        "image3": "https://fdn.gsmarena.com/imgroot//reviews/17/sony-xperia-xz1/gal/-1200x900w1/gsmarena_001.jpg",
+        "auctionTime": 3,
+        "startPrice": 2500.00,
+        "lastBidAmount": 3000.00
+    },
+    {
+        "id": 3,
+        "name": "Smart TV 4K",
+        "description": "A powerful smartphone with cutting-edge features and performance Sony Xperia XZ1 Android smartphone. Announced Aug 2017. Features 5.2″ display, Snapdragon 835 chipset, 19 MP primary camera, 13 MP front camera",
+        "ownerEmail": "info@example.com",
+        "image": "https://fdn.gsmarena.com/imgroot/reviews/17/sony-xperia-xz1/lifestyle/-728w2/gsmarena_010.jpg",
+        "image2": "https://fdn.gsmarena.com/imgroot/reviews/17/sony-xperia-xz1/lifestyle/-728w2/gsmarena_012.jpg",
+        "image3": "https://fdn.gsmarena.com/imgroot//reviews/17/sony-xperia-xz1/gal/-1200x900w1/gsmarena_001.jpg",
+        "auctionTime": 3,
+        "startPrice": 2500.00,
+        "lastBidAmount": 3000.00
+    },
+    {
+        "id": 4,
+        "name": "Wireless Headphones",
+        "description": "A powerful smartphone with cutting-edge features and performance Sony Xperia XZ1 Android smartphone. Announced Aug 2017. Features 5.2″ display, Snapdragon 835 chipset, 19 MP primary camera, 13 MP front camera",
+        "ownerEmail": "info@example.com",
+        "image": "https://fdn.gsmarena.com/imgroot/reviews/17/sony-xperia-xz1/lifestyle/-728w2/gsmarena_010.jpg",
+        "image2": "https://fdn.gsmarena.com/imgroot/reviews/17/sony-xperia-xz1/lifestyle/-728w2/gsmarena_012.jpg",
+        "image3": "https://fdn.gsmarena.com/imgroot//reviews/17/sony-xperia-xz1/gal/-1200x900w1/gsmarena_001.jpg",
+        "auctionTime": 3,
+        "startPrice": 2500.00,
+        "lastBidAmount": 3000.00
+    },
+    {
+        "id": 5,
+        "name": "Digital Camera",
+        "description": "A powerful smartphone with cutting-edge features and performance Sony Xperia XZ1 Android smartphone. Announced Aug 2017. Features 5.2″ display, Snapdragon 835 chipset, 19 MP primary camera, 13 MP front camera",
+        "ownerEmail": "info@example.com",
+        "image": "https://fdn.gsmarena.com/imgroot/reviews/17/sony-xperia-xz1/lifestyle/-728w2/gsmarena_010.jpg",
+        "image2": "https://fdn.gsmarena.com/imgroot/reviews/17/sony-xperia-xz1/lifestyle/-728w2/gsmarena_012.jpg",
+        "image3": "https://fdn.gsmarena.com/imgroot//reviews/17/sony-xperia-xz1/gal/-1200x900w1/gsmarena_001.jpg",
+        "auctionTime": 3,
+        "startPrice": 2500.00,
+        "lastBidAmount": 3000.00
+    },
+    {
+        "id": 6,
+        "name": "Smart Home Hub",
+        "description": "A powerful smartphone with cutting-edge features and performance Sony Xperia XZ1 Android smartphone. Announced Aug 2017. Features 5.2″ display, Snapdragon 835 chipset, 19 MP primary camera, 13 MP front camera",
+        "ownerEmail": "info@example.com",
+        "image": "https://fdn.gsmarena.com/imgroot/reviews/17/sony-xperia-xz1/lifestyle/-728w2/gsmarena_010.jpg",
+        "image2": "https://fdn.gsmarena.com/imgroot/reviews/17/sony-xperia-xz1/lifestyle/-728w2/gsmarena_012.jpg",
+        "image3": "https://fdn.gsmarena.com/imgroot//reviews/17/sony-xperia-xz1/gal/-1200x900w1/gsmarena_001.jpg",
+        "auctionTime": 3,
+        "startPrice": 2500.00,
+        "lastBidAmount": 3000.00
+    },
+    {
+        "id": 7,
+        "name": "Wireless Mouse",
+        "description": "A wireless mouse with ergonomic design and precise tracking. Ideal for both work and gaming.",
+        "ownerEmail": "info@example.com",
+        "image": "https://example.com/images/wireless-mouse.jpg",
+        "image2": "https://example.com/images/wireless-mouse-sideview.jpg",
+        "image3": "https://example.com/images/wireless-mouse-topview.jpg",
+        "auctionTime": 5,
+        "startPrice": 3500.00,
+        "lastBidAmount": 3800.00
+    },
+    {
+        "id": 8,
+        "name": "Portable Speaker",
+        "description": "High-quality portable speaker with 360-degree sound and long battery life. Perfect for outdoor gatherings.",
+        "ownerEmail": "info@example.com",
+        "image": "https://example.com/images/portable-speaker.jpg",
+        "image2": "https://example.com/images/portable-speaker-sideview.jpg",
+        "image3": "https://example.com/images/portable-speaker-topview.jpg",
+        "auctionTime": 7,
+        "startPrice": 4200.00,
+        "lastBidAmount": 4500.00
+    },
+    {
+        "id": 9,
+        "name": "Smartwatch XYZ",
+        "description": "A feature-rich smartwatch with fitness tracking, heart rate monitoring, and customizable watch faces.",
+        "ownerEmail": "info@example.com",
+        "image": "https://example.com/images/smartwatch-xyz.jpg",
+        "image2": "https://example.com/images/smartwatch-xyz-sideview.jpg",
+        "image3": "https://example.com/images/smartwatch-xyz-topview.jpg",
+        "auctionTime": 4,
+        "startPrice": 3000.00,
+        "lastBidAmount": 3200.00
+    }
+]
