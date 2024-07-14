@@ -7,7 +7,8 @@ const ProductBidPage = () => {
   const [product, setProduct] = useState(null); 
 
   const fetchProduct = () => {
-    fetch(`${process.env.REACT_APP_API_URL}/products/${id}`) // Use the ID to fetch the product
+    // Use the ID to fetch the product
+    fetch(`${process.env.REACT_APP_API_URL}/products/${id}`) 
       .then(res => res.json())
       .then(res => {
         if (res.success) {
