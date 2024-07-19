@@ -17,6 +17,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Fab from '@mui/material/Fab';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import ScrollTop from './ScrollTop'; // Import the ScrollTop component
+import { isAuthenticated } from '../services/Auth'
 
 const pages = ['Home', 'About', 'Products'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -46,7 +47,7 @@ function Appbar(props) {
       <AppBar position="fixed" color='success'>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+            {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
             <Typography
               variant="h6"
               noWrap
@@ -101,8 +102,8 @@ function Appbar(props) {
                 ))}
               </Menu>
             </Box>
-            <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-            <Typography
+            {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
+            {/* <Typography
               variant="h5"
               noWrap
               component={Link}
@@ -119,7 +120,7 @@ function Appbar(props) {
               }}
             >
               LOGO
-            </Typography>
+            </Typography> */}
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               {pages.map((page) => (
                 <Button
@@ -135,33 +136,68 @@ function Appbar(props) {
             </Box>
 
             <Box sx={{ flexGrow: 0 }}>
-              <Tooltip title="Open settings">
-                <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-                </IconButton>
-              </Tooltip>
-              <Menu
-                sx={{ mt: '45px' }}
-                id="menu-appbar"
-                anchorEl={anchorElUser}
-                anchorOrigin={{
-                  vertical: 'top',
-                  horizontal: 'right',
-                }}
-                keepMounted
-                transformOrigin={{
-                  vertical: 'top',
-                  horizontal: 'right',
-                }}
-                open={Boolean(anchorElUser)}
-                onClose={handleCloseUserMenu}
-              >
-                {settings.map((setting) => (
-                  <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                    <Typography textAlign="center">{setting}</Typography>
-                  </MenuItem>
-                ))}
-              </Menu>
+              {
+                isAuthenticated() ?
+                  (
+                    <>
+                      <Tooltip title="Open settings">
+                        <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+                          <Avatar alt="" src="" />
+                        </IconButton>
+                      </Tooltip>
+                      <Menu
+                        sx={{ mt: '45px' }}
+                        id="menu-appbar"
+                        anchorEl={anchorElUser}
+                        anchorOrigin={{
+                          vertical: 'top',
+                          horizontal: 'right',
+                        }}
+                        keepMounted
+                        transformOrigin={{
+                          vertical: 'top',
+                          horizontal: 'right',
+                        }}
+                        open={Boolean(anchorElUser)}
+                        onClose={handleCloseUserMenu}
+                      >
+                        {settings.map((setting) => (
+                          <MenuItem key={setting} onClick={handleCloseUserMenu} component={Link} to={`/${setting.toLowerCase()}`} >
+                           {/* {setting.toLowerCase() == '/logout'?(
+                            <Typography textAlign="center" onClick=''>{setting}</Typography>
+                           ):}                 */}
+                            <Typography textAlign="center">{setting}</Typography>
+                          </MenuItem>
+                        ))}
+                      </Menu>
+                    </>
+                  ) : null
+              }
+
+              {!isAuthenticated()?
+                (<>
+                  {/* <Button
+                    component={Link}
+                    to={`/account`}
+                    variant='text'
+                    color='inherit'
+                    sx={{ mr: 2 }}
+                  >
+                    Sign in
+                  </Button> */}
+                  <Button
+                    component={Link}
+                    to={`/account`}
+                    variant='outlined'
+                    color='inherit'
+
+                  >
+                    Get Started
+                  </Button>
+                </>)
+                :null
+              }
+
             </Box>
           </Toolbar>
         </Container>
